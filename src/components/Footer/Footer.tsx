@@ -36,7 +36,7 @@ export const Footer = () => {
               </div>
               <div>
                 <h3 className="font-stencil text-2xl text-street-white uppercase">
-                  {siteConfig.server.shortName || 'NCRP'}
+                  {siteConfig.server.shortName || 'FWRP'}
                 </h3>
                 <p className="font-stamp text-xs text-gang-gold uppercase tracking-wider">
                   {siteConfig.server.slogan || 'Street Life'}
@@ -217,7 +217,7 @@ export const Footer = () => {
 
           {/* Spray paint signature */}
           <div className="font-tag text-spray-yellow text-2xl transform rotate-3 opacity-50">
-            {siteConfig.server.shortName || 'NCRP'}
+            {siteConfig.server.shortName || 'FWRP'}
           </div>
         </div>
 
